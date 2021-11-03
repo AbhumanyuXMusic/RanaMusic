@@ -18,7 +18,7 @@ async def playlist(client, m: Message):
       if len(chat_queue)==1:
          await m.reply(f"💡 **[Nᴏᴡ ᴘʟᴀʏɪɴɢ](https://t.me/AlishaSupport)**\n\n[{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][3]}`", disable_web_page_preview=True)
       else:
-         QUE = f"💡 **[Nᴏᴡ ᴘʟᴀʏɪɴɢ](https://t.me/Venom_Hai_Hum)**\n\n[{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][3]}` \n\n**📖 Pʟᴀʏʟɪsᴛ:**"
+         QUE = f"💡 **[Nᴏᴡ ᴘʟᴀʏɪɴɢ](https://t.me/Itz_VeNom_xD)**\n\n[{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][3]}` \n\n**📖 Pʟᴀʏʟɪsᴛ:**"
          l = len(chat_queue)
          for x in range (1, l):
             han = chat_queue[x][0]
