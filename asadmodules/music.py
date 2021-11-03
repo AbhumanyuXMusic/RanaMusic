@@ -89,7 +89,7 @@ async def play(_, m: Message):
                 await suhu.delete()
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💡 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({link})\n🎧 **Request by:** {m.from_user.mention()}\n🔢 **At position »** `{pos}`",
+                    caption=f"🎶 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({link})\n🎧 **Request by:** {m.from_user.mention()}\n🔢 **At position »** `{pos}`",
                     reply_markup=keyboard,
                 )
             else:
@@ -104,7 +104,7 @@ async def play(_, m: Message):
                 await suhu.delete()
                 await m.reply_photo(
                     photo=f"{IMG_2}",
-                    caption=f"💡 **Sᴏɴɢ ɪs ᴘʟᴀʏɪɴɢ..**\n\n🏷 **Nᴀᴍᴇ:** [{songname[:15]}]({url})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}",
+                    caption=f"🎶 **Sᴏɴɢ ɪs ᴘʟᴀʏɪɴɢ..**\n\n🏷 **Nᴀᴍᴇ:** [{songname[:15]}]({url})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}",
                     reply_markup=keyboard,
                 )
         else:
@@ -132,7 +132,7 @@ async def play(_, m: Message):
                             await suhu.delete()
                             await m.reply_photo(
                                 photo=f"{IMG_1}",
-                                caption=f"💡 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({url})\n💭 **Cʜᴀᴛ:** `{chat_id}`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\n🔢 **Pᴏsɪᴛɪᴏɴ »** `{pos}`",
+                                caption=f"🎶 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({url})\n💭 **Cʜᴀᴛ:** `{chat_id}`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\n🔢 **Pᴏsɪᴛɪᴏɴ »** `{pos}`",
                                 reply_markup=keyboard,
                             )
                         else:
@@ -148,7 +148,7 @@ async def play(_, m: Message):
                                 await suhu.delete()
                                 await m.reply_photo(
                                     photo=f"{IMG_2}",
-                                    caption=f"💡 **Sᴏɴɢ ɪs ᴘʟᴀʏɪɴɢ..**\n\n🏷 **Nᴀᴍᴇ:** [{songname[:15]}]({url})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}",
+                                    caption=f"🎶 **Sᴏɴɢ ɪs ᴘʟᴀʏɪɴɢ..**\n\n🏷 **Nᴀᴍᴇ:** [{songname[:15]}]({url})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}",
                                     reply_markup=keyboard,
                                 )
                             except Exception as ep:
@@ -177,7 +177,7 @@ async def play(_, m: Message):
                         await suhu.delete()
                         await m.reply_photo(
                             photo=f"{IMG_1}",
-                            caption=f"💡 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({url})\n💭 **Cʜᴀᴛ:** `{chat_id}`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\n🔢 **Pᴏsɪᴛɪᴏɴ »** `{pos}`",
+                            caption=f"🎶 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({url})\n💭 **Cʜᴀᴛ:** `{chat_id}`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\n🔢 **Pᴏsɪᴛɪᴏɴ »** `{pos}`",
                                 reply_markup=keyboard,
                         )
                     else:
@@ -193,7 +193,7 @@ async def play(_, m: Message):
                             await suhu.delete()
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"💡 **Sᴏɴɢ ɪs ᴇɴᴅᴇᴅ.**\n\n🏷 **Nᴀᴍᴇ:** [{songname[:15]}]({url})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}",
+                                caption=f"🎶 **Sᴏɴɢ ɪs ᴘʟᴀʏɪɴɢ.**\n\n🏷 **Nᴀᴍᴇ:** [{songname[:15]}]({url})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
@@ -242,7 +242,7 @@ async def stream(_, m: Message):
                 await suhu.delete()
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💡 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({url})\n💭 **Cʜᴀᴛ:** `{chat_id}`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\n🔢 **Pᴏsɪᴛɪᴏɴ »** `{pos}`",
+                    caption=f"🎶 **Sᴏɴɢ ɪs ᴀᴛ ᴡᴀɪᴛɪɴɢ ᴘᴏsɪᴛɪᴏɴ**\n\n🏷 **Name:** [{songname[:15]}]({url})\n💭 **Cʜᴀᴛ:** `{chat_id}`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\n🔢 **Pᴏsɪᴛɪᴏɴ »** `{pos}`",
                     eply_markup=keyboard,
                 )
             else:
