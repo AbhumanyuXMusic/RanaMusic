@@ -34,7 +34,7 @@ async def handle_user_status(bot, cmd):
             await db.remove_ban(chat_id)
         else:
             await cmd.reply_text(
-                f"Sᴏʀʀʏ ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ, ᴀsᴋ ɪɴ @Dr_Asad_Ali Oғ ʏᴏᴜ ᴛʜɪɴᴋ ᴛʜɪs ᴡᴀs ᴀɴs Mɪsᴛᴀᴋᴇ...😉.",
+                f"Sᴏʀʀʏ ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ, ᴀsᴋ ɪɴ @Venom_Hai_Hum Oғ ʏᴏᴜ ᴛʜɪɴᴋ ᴛʜɪs ᴡᴀs ᴀɴs Mɪsᴛᴀᴋᴇ...😉.",
                 quote=True,
             )
             return
