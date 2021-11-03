@@ -213,7 +213,7 @@ async def stream(_, m: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "✨ Oᴡɴᴇʀ ✨", url=f"https://t.me/Venom_Hai_Hum"
+                        "✨ Oᴡɴᴇʀ ✨", url=f"https://t.me/Itz_VeNom_xD"
                     )
                 ],
             ]
