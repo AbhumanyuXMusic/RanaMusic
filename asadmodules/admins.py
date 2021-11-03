@@ -27,16 +27,16 @@ async def update_admin(client, message):
     admins[message.chat.id] = new_admins
     await message.reply_text(
         f"""**━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ @Dr_Asad_Ali's ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴠɪᴅᴇᴏ & ᴀᴜᴅɪᴏ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ @Venom_Hai_Hum's ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴠɪᴅᴇᴏ & ᴀᴜᴅɪᴏ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ʙᴏᴛ : [ʀᴇʟᴏᴀᴅᴇᴅ](https://t.me/Asad_Music_Bot)
-┣★ ᴀᴅᴍɪɴ : [ʀᴇғʀᴇsʜᴇᴅ](https://t.me/Shayri_Music_Lovers)
-┣★ sᴜᴘᴘᴏʀᴛ : [ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs](https://t.me/AsadSupport)
+┣★ ʙᴏᴛ : [ʀᴇʟᴏᴀᴅᴇᴅ](https://t.me/QueenAlishaRobot)
+┣★ ᴀᴅᴍɪɴ : [ʀᴇғʀᴇsʜᴇᴅ](https://t.me/AlishaSupport)
+┣★ sᴜᴘᴘᴏʀᴛ : [ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs](https://t.me/ABOUTABHI)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ » ǫᴜᴇsᴛɪᴏɴ
-ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali).
+ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Venom_Hai_Hum).
 ━━━━━━━━━━━━━━━━━━━**""",
     )
 
@@ -48,12 +48,12 @@ async def skip(client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
-                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
+
+                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Venom_Hai_Hum"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨‍👨‍👧‍👦 Gʀᴏᴜᴘ 👨‍👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨ Gʀᴏᴜᴘ ✨", url=f"https://t.me/{GROUP_SUPPORT}"
                     )
                 ],
             ]
@@ -69,7 +69,7 @@ async def skip(client, m: Message):
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
-                caption=f"⏭ **Sᴋɪᴘᴘᴇᴅ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ❤️.**\n\n🏷 **Nᴀᴍᴇ:** [{op[0]}]({op[1]})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\nVia [Asᴀᴅ ᴀʟɪ sᴇʀᴠᴇʀ](https://t.me/Give_Me_Heart)",
+                caption=f"⏭ **Sᴋɪᴘᴘᴇᴅ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ❤️.**\n\n🏷 **Nᴀᴍᴇ:** [{op[0]}]({op[1]})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\nVia [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ RᴀɴᴀᴡᴀT](https://t.me/Venom_Hai_Hum)",
                 reply_markup=keyboard,
             )
     else:
