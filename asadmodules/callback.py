@@ -50,7 +50,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👑 Kɪɴɢ 👑", url="https://t.me/Dr_Asad_Ali"
+                        "👑 Kɪɴɢ 👑", url="https://t.me/Venom_Hai_Hum"
                     )
                 ],
             ]
@@ -112,7 +112,7 @@ async def cbcmds(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbbasic"))
 async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 Hᴇʀᴇ ɪs ᴛʜᴇ  [Asᴀᴅ ᴀʟɪ sᴇʀᴠᴇʀ](https://t.me/Give_Me_Heart) ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅ:
+        f"""🏮 Hᴇʀᴇ ɪs ᴛʜᴇ  [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ RᴀɴᴀᴡᴀT](https://t.me/AlishaSupport) ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅ:
 
 » /play (song name/link) - play music on video chat
 » /stream (query/link) - stream the yt live/radio live music
@@ -137,7 +137,7 @@ async def cbbasic(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbadmin"))
 async def cbadmin(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 Hᴇʀᴇ ɪs ᴛʜᴇ  [Asᴀᴅ ᴀʟɪ sᴇʀᴠᴇʀ](https://t.me/Give_Me_Heart) ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ:
+        f"""🏮 Hᴇʀᴇ ɪs ᴛʜᴇ  [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ RᴀɴᴀᴡᴀT](https://t.me/Venom_Hai_Hum) ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ:
 
 » /pause - pause the stream
 » /resume - resume the stream
@@ -158,7 +158,7 @@ async def cbadmin(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbsudo"))
 async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 Hᴇʀᴇ ɪs ᴛʜᴇ  [Asᴀᴅ ᴀʟɪ sᴇʀᴠᴇʀ](https://t.me/Give_Me_Heart) sᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅ:
+        f"""🏮 Hᴇʀᴇ ɪs ᴛʜᴇ  [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ RᴀɴᴀᴡᴀT](https://t.me/Venom_Hai_Hum) sᴜᴅᴏ ᴄᴏᴍᴍᴀɴᴅ:
 
 » /rmw - clean all raw files
 » /rmd - clean all downloaded files
