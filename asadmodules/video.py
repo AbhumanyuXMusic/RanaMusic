@@ -63,12 +63,12 @@ async def vplay(client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
-                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
+                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/AlishaSupport"),
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/ABOUTABHI"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨‍👨‍👧‍👦 Gʀᴏᴜᴘ 👨‍👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨ Oᴡɴᴇʀ ✨", url=f"https://t.me/Itz_VeNom_xD"
                     )
                 ],
             ]
@@ -228,12 +228,12 @@ async def vstream(client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
-                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
+                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/Give_Me_Heart"),
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/ABOUTABHI"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨‍👨‍👧‍👦 Gʀᴏᴜᴘ 👨‍👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨ Oᴡɴᴇʀ ✨", url=f"https://t.me/Itz_VeNom_xD"
                     )
                 ],
             ]
