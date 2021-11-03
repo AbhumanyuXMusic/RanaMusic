@@ -36,7 +36,7 @@ async def update_admin(client, message):
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ » ǫᴜᴇsᴛɪᴏɴ
-ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Venom_Hai_Hum).
+ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Itz_VeNom_xD).
 ━━━━━━━━━━━━━━━━━━━**""",
     )
 
@@ -49,7 +49,7 @@ async def skip(client, m: Message):
         [
             [
 
-                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Venom_Hai_Hum"),
+                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Itz_VeNom_xD"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -69,7 +69,7 @@ async def skip(client, m: Message):
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
-                caption=f"⏭ **Sᴋɪᴘᴘᴇᴅ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ❤️.**\n\n🏷 **Nᴀᴍᴇ:** [{op[0]}]({op[1]})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\nVia [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ RᴀɴᴀᴡᴀT](https://t.me/Venom_Hai_Hum)",
+                caption=f"⏭ **Sᴋɪᴘᴘᴇᴅ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ❤️.**\n\n🏷 **Nᴀᴍᴇ:** [{op[0]}]({op[1]})\n💡 **Sᴛᴀᴛᴜs:** `Playing`\n🎧 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {m.from_user.mention()}\nVia [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ RᴀɴᴀᴡᴀT](https://t.me/Itz_VeNom_xD)",
                 reply_markup=keyboard,
             )
     else:
