@@ -14,7 +14,7 @@ ROCKS Music Is A Telegram Bot Project That's Allow You To Play Music On Telegram
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhumanyuXMusic/RanaMusic)
-
+[! [Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AbhumanyuXMusic/RanaMusic&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT,THUMB_IMG)
 
 ## ✨ Features
 - Music & Video stream support
